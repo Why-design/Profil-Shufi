@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Website Profle Menggunakan HTML, CSS dan JS</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Icons -->
+  <link href="assets/img/Logo_00000.png" rel="icon">
+  <link href="assets/img/Shufi_00000.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Script JS ======= -->
+
+  <script>
+    var nama = prompt("Siapa nama kamu?", "");
+    document.write("<p>Hello "+ nama +", Selamat Datang</p>");
+  </script>
+
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">Profile</a></h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="https://drive.google.com/file/d/1OSaWvpp4qtpF7ORvtaEEz-S11LFk0Ky-/view?usp=sharing">Download CV</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- BG image -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/abstract-colorful-fun-background-vector.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Selamat Datang di <span>Profil Saya</span></h2>
+              <p class="animate__animated animate__fadeInUp">Grapic Designer - Video Editor</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Get Starterd</a>
+            </div>
+          </div>
+        </div>
+        
+   </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Berikut ini adalah sedikit cerita singkat tentang siapa dan hobi saya</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img src="assets/img/Shufi_00000.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>Nur Muhammad Shufi.</h3>
+            <p class="fst-italic">
+              Nama saya Nur Muhammad Shufi, saya salah satu Mahasiswa di Universitas MercuBuana Jurusan Teknik Informatika. Dan Saat ini saya semester 4. Salah satu kesukaan saya adalah mengedit video - video raw, hobi ini sudah ada sejak saya masih menginjak bangku SD.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Jika rekan - rekan membutuhkan jasa dan tenaga saya, rekan - rekan bisa menghubungi saya dengan menggunakan fitur dibawah ini.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-12 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Lokasi:</h4>
+                <p>Jl. Kapten Tendean, Jakarta Selatan </p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>123456789@contoh.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Phone:</h4>
+                <p>+62 93839 1839</p>
+              </div>
+
+              <div class="info-2">
+                <p class="fst-italic col-lg-12">
+                  Berikut ini adalah lokasi dari tempat tinggal saya menggunakan fitur gps :
+                </p>
+                </div>
+
+              <div class="map"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1779713166284!2d106.82314131468594!3d-6.24025999548296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3dc4acc0e75%3A0x719aeb5ed3ee97ab!2sJl.%20Kapten%20Tendean!5e0!3m2!1sen!2sbg!4v1649004919906!5m2!1sen!2sbg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Shufi</h3>
+      <p>Jika teman-teman ingin menghubungi atau berteman dengan saya di sosial media, dibawah ini terdapat beberapa icon yang akan membawa teman-teman ke beranda sosial media saya.</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/nmshufi_" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="youtube"><i class="bx bxl-youtube"></i></a>
+      </div>
+      <div class="credits">
+        Designed by <a href="https://www.instagram.com/nmshufi_/">NMShufi</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+    <!-- Quick back to top -->
+  <a href="#hero" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Java Script File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
